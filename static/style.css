@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;             /* Eliminates unwanted gaps in page */
+    
+    
+}  
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    margin-right: 50px;  /* Get space between next text */
+}
+
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+#navbar{
+    font-family: 'Orbitron', sans-serif;
+    background-color: lightseagreen;   /* li menus */
+    padding:18px 14px;   /* Increase spaces from inside */
+}
+#navbar ul{
+
+    display: flex;   /* Makes in one line */
+    flex-direction: row;
+    align-items: center;   /* Vertically center */
+    /* justify-content: center; */ /* Gets content centre */
+
+}
+
+#navbar li {
+    list-style:none; /* No underline or no text format */
+}
+#navbar li a{
+    font-size: 30px;
+    text-decoration: none; /* No underline or no text format */
+    padding: 3px 8px;   /* Space between li menu's  */
+    color: cornsilk; /* Text colors */
+
+}
+
+#navbar li a:hover{
+    color: black; /* Text colors */
+    font-weight: bolder;
+
+}
+
+#introSection{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 60px;
+    color:white;
+    display:flex;
+    flex-direction: column;  /* On new line according to div */
+    justify-content: center;
+    align-items: center;
+    height:250px; /* Alot spaces in terms of height */
+    background-color: rgb(255, 187, 0);
+    background: center/cover no-repeat url("/static/introbg.jpg") ;
+}
+#introSection div.small{
+font-size: 52px;
+padding:5px;
+}
+
+#sponsorsSection{
+    
+    height:300px; /* Alot spaces in terms of height */
+    background-color:  tan;
+    
+}
+
+#sponsorsSection h2{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center; /* get text in center */
+    padding-top: 20px;  /* Content comes down */
+    
+    
+}
+
+
+#missionSection{
+     
+        height: 315px;; 
+        width: 100%;
+        margin: auto; 
+        background-color: darkgray
+       
+}
+
+#missionSection h2{
+    font-size: 36px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 15px;
+    height: 209px;
+}
+
+.card h3{
+    text-align: center;
+    margin: 12px;
+
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img {
+    height: 212px;
+    padding: 0 14px;
+    margin: -48px -10px;
+}
+
+.card-img img{
+    height:inherit;
+    padding: 0 14px;
+}
+.card-content{
+padding: 0 10px;
+}
+
+.card-content p{
+font-size: 19px;
+}
+
+#sponsors{
+    height: 191px;
+    max-width: 1000px;
+    margin: 28px auto;
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+#footer{
+    display: flex;
+    height:60px; /* Alot spaces in terms of height */
+    background-color: rgb(11, 12, 11);
+    color: khaki;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+}

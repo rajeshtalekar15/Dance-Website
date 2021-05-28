@@ -1,0 +1,56 @@
+//- index.pug
+doctype html
+html
+  head
+    title Rajesh's Style
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/img/logo.png")
+                | RDA
+            li #[a(href="/") Home]
+            li #[a(href="/contact") Contact Us]
+    
+
+    section#introSection
+        div   Welcome To Dance Academy
+        div.small Eat sleep dance repeat 
+
+    section#missionSection
+        h2   Our Mission
+        div.card
+            h3 Dance Perfection 
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png")
+
+                div.card-content
+                     p Dance academy 
+        div.card
+            h3 Dance
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.png")
+
+                div.card-content
+                     p Dance academy 
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.png")
+
+                div.card-content
+                     p Dance academy 
+        
+
+
+    footer#footer
+        | Rajesh Website &copy 2021 | All rights reserved. 
+
+      
+    script
+      include ../static/index.js
